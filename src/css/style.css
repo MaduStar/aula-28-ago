@@ -1,10 +1,10 @@
 .fight-area {
-    display:flex;
+    display: flex;
     gap: 20px;
 }
 
-#achar, #monster {
-    flex: 1;
+#char, #monster {
+    flex: 1; /* divide o espaço igualmente na tela */
 }
 
 .life-bar {
@@ -21,5 +21,7 @@
 }
 
 .log {
-    border: 2
+    border: 2px dotted #999;
+    height: 200px;
+    overflow-y: scroll;
 }
