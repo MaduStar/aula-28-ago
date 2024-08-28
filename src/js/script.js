@@ -1,9 +1,10 @@
-class Character {
-    constructor(name){
-        this.name = name
-        this.life = 1
-        this.maxLife = 1
-        this.attack = 0
-        this.defense = 0
-    }
-}
+let char = new Knight('John')
+let monster = new LittleMonster ()
+
+console.log(char.name)
+console.log(char.life)
+console.log(char.attack)
+
+console.log(monster.name)
+console.log(monster.life)
+console.log(monster.attack)
