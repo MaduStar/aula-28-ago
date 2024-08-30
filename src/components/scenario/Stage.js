@@ -14,7 +14,7 @@ class Stage {
         // char1
         this.char1Element.querySelector('.name').innerHTML = ˋ${this.char1.name} - ${this.char1.life} HPˋ
         //barra de vida
-        let char1HP = (this.char1.life / this.char1.masLife) * 100
+        let char1HP = (this.char1.life / this.char1.maxLife) * 100
         this.char1Element.querySelector('.bar').style.width = ˋ${char1HP}%ˋ
 
         // char2 
